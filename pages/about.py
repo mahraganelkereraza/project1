@@ -1,10 +1,10 @@
 import streamlit as st
 
-image_path = "D:/projact/image/hhgghjhjh.jpg"
+image_path = "./image/hhgghjhjh.jpg"
 col1, col2, col3 = st.columns([1,2,1])
 with col2:
                 st.image(image_path, width=400)
-def new_func():
+def new_func(): #B:\new\last\project1\image
         st.markdown("""
 <div style="text-align: center; margin-top: 50px;">
     <h1 style="font-size: 60px; color: black; font-weight: bold;">
@@ -64,7 +64,7 @@ def new_func1():
 
 
 # ✨ هنا غير المسار واسم الصورة حسب مكانها عندك
-        add_bg_from_local("D:/projact/image/pngtree-high-quality-blue-sky-background-wallpapers-high-resolution-blue-sky-backgrounds-image_13267110.jpg")
+        add_bg_from_local("./image/pngtree-high-quality-blue-sky-background-wallpapers-high-resolution-blue-sky-backgrounds-image_13267110.jpg")
 new_func1()
    
 
